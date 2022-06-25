@@ -75,7 +75,6 @@ taxonomies:
   category: categories
   series: series
   tag: tags
-theme: sky
 customtextFontFamily: "Atkinson Hyperlegible"
 customheadingFontFamily: "Petrona"
 menu:
