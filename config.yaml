@@ -63,7 +63,8 @@ params:
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
-  theme: sky
+  theme: sky #forest / grayscale / peach / plum /
+  #         poppy / sky / violet / water
   twitter: renee_fonseca
   utterances:
     issue_term: pathname
@@ -75,8 +76,10 @@ taxonomies:
   category: categories
   series: series
   tag: tags
-customtextFontFamily: "Atkinson Hyperlegible"
-customheadingFontFamily: "Petrona"
+customtextFontFamily: Atkinson Hyperlegible
+customheadingFontFamily: Petrona
+textFontFamily: sans-serif
+headingFontFamily: sans-serif
 menu:
   footer:
     - name: License
