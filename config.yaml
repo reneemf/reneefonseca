@@ -78,8 +78,6 @@ taxonomies:
   tag: tags
 customtextFontFamily: Atkinson Hyperlegible
 customheadingFontFamily: Petrona
-textFontFamily: sans-serif
-headingFontFamily: sans-serif
 menu:
   footer:
     - name: License
