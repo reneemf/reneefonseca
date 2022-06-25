@@ -1,7 +1,7 @@
 baseURL: reneefonseca.netlify.app
 theme: hugo-apero
 languageCode: en
-title: Hugo Apéro
+title: Renée Fonseca
 author: Renée Fonseca
 copyright: ''
 googleAnalytics: ''
@@ -9,7 +9,7 @@ disqusShortname: ''
 metaDataFormat: yaml
 footnoteReturnLinkContents: '&#8617;'
 paginate: 5
-preserveTaxonomyNames: yes
+preserveTaxonomyNames: true
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -33,10 +33,10 @@ params:
   custom_theme: ''
   customheadingFontFamily: Fraunces
   customtextFontFamily: Commissioner
-  description: A modern, beautiful, and easily configurable blog theme for Hugo.
+  description: Renée Fonseca's personal website and portfolio
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
-  logo: /img/blogophonic-mark-dark.png
+  logo: /img/DNA.png
   mainSections:
     - blog
     - project
@@ -50,40 +50,34 @@ params:
   social:
     - icon: github
       icon_pack: fab
-      url: https://github.com/apreshill/apero
-    - icon: facebook-square
-      icon_pack: fab
-      url: https://www.facebook.com/hashtag/ap%C3%A9ro
-    - icon: instagram
-      icon_pack: fab
-      url: https://www.instagram.com/explore/tags/apero/
+      url: https://github.com/reneemf
     - icon: twitter
       icon_pack: fab
-      url: https://twitter.com/hashtag/apéro
-    - icon: impactstory
-      icon_pack: ai
-      url: https://impactstory.org/u/0000-0002-8082-1890
-    - icon: orcid
-      icon_pack: ai
-      url: http://orcid.org/0000-0002-8082-1890
-    - icon: rss
+      url: https://twitter.com/renee_fonseca
+    - icon: linkedin
+      icon_pack: fab
+      link: https://www.linkedin.com/in/reneefonseca/
+    - icon: graduation-cap 
       icon_pack: fas
-      url: /blog/index.xml
+      link: https://scholar.google.com/citations?user=4W6-0qoAAAAJ&hl=en
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
   theme: sky
-  twitter: apreshill
+  twitter: renee_fonseca
   utterances:
     issue_term: pathname
     label: 'comments :crystal_ball:'
-    repo_name: apreshill/apero
+    repo_name: reneemf/reneefonseca
     theme: boxy-light
     use_utterances: yes
 taxonomies:
   category: categories
   series: series
   tag: tags
+theme: sky
+customtextFontFamily: "Atkinson Hyperlegible"
+customheadingFontFamily: "Petrona"
 menu:
   footer:
     - name: License
@@ -94,13 +88,10 @@ menu:
       title: Contact form
       url: /contact/
       weight: 2
-    - name: Contributors
-      title: Contributors
-      url: /contributors/
-      weight: 3
+
   header:
     - name: About
-      title: About Blogophonic
+      title: About me
       url: /about/
       weight: 1
     - name: Blog
@@ -115,14 +106,7 @@ menu:
       title: Talks
       url: /talk/
       weight: 4
-    - name: A collection
-      title: A collection
-      url: /collection/
-      weight: 5
-    - name: Elements
-      title: Element Page
-      url: /elements/
-      weight: 6
+
 privacy:
   disqus:
     disable: no
