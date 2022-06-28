@@ -1,0 +1,33 @@
+---
+title: First blog post! 
+author: Renée Fonseca
+date: '2022-06-27'
+slug: []
+categories: []
+tags: []
+summary: Just testing things out
+image:
+  caption: '[Photo by Matheus Natan on Pexels](https://www.pexels.com/photo/white-concrete-building-3297593/)'
+  focal_point: ''
+---
+
+![my-first-image](image1.jpeg)
+
+Testing the blog - first post!
+
+
+```{r}
+summary(Orange)
+```
+
+```{r echo=FALSE, warning=FALSE}
+library(ggplot2)
+plot <- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   colour = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(colour = FALSE) +
+  theme_bw()
+plot
+```

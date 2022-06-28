@@ -76,8 +76,10 @@ taxonomies:
   category: categories
   series: series
   tag: tags
-customtextFontFamily: Atkinson Hyperlegible
-customheadingFontFamily: Petrona
+#customtextFontFamily: Atkinson Hyperlegible
+#customheadingFontFamily: Petrona
+customtextFontFamily: Commissioner
+customheadingFontFamily: Fraunces
 menu:
   footer:
     - name: License
@@ -94,9 +96,9 @@ menu:
       title: About me
       url: /about/
       weight: 1
-    - name: Blog
-      title: Blog
-      url: /blog/
+    - name: Awards
+      title: Awards
+      url: /award/
       weight: 2
     - name: Projects
       title: Project Portfolio
@@ -106,6 +108,10 @@ menu:
       title: Talks
       url: /talk/
       weight: 4
+    - name: Blog
+      title: Blog
+      url: /blog/
+      weight: 5
 
 privacy:
   disqus:

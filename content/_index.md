@@ -6,7 +6,7 @@ description: I am a geneticist, bioinformatician, PhD candidate, & Fulbright sch
 
 image_left: false
 images:
-- img/Fonseca_R.jpg
+- img/Fonseca.png
 show_action_link: true
 show_social_links: true
 subtitle: Human Genetics PhD Candidate at the University of Chicago
