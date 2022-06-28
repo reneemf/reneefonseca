@@ -130,11 +130,11 @@ enableEmoji = true
     title = "Talks"
     url = "/talk/"
     weight = 4
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
-    weight = 5
+  #[[menu.header]]
+    #name = "Blog"
+    #title = "Blog"
+    #url = "/blog/"
+    #weight = 5
 
   # Configure footer
   [[menu.footer]]

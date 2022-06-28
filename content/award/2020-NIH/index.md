@@ -8,6 +8,6 @@ featured: true
 layout: single
 location: Chicago, Illinois
 show_post_time: false
-title: NIH Genetics and Regulation T raining Grant Program
+title: NIH Genetics and Regulation Training Grant Program
 ---
 
