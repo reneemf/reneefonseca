@@ -46,23 +46,22 @@ params:
   navallcaps: yes
   orgLocal: Anywhere
   orgName: RStudio
-  sharing_image: /img/papillons.jpg
+  sharing_image: /img/avatar.jpg
   social:
     - icon: github
       icon_pack: fab
-      url: https://github.com/reneemf
-    - icon: twitter
-      icon_pack: fab
-      url: https://twitter.com/renee_fonseca
+      url: "https://github.com/reneemf/"
     - icon: linkedin
       icon_pack: fab
-      link: 'https://www.linkedin.com/in/reneefonseca/'
+      link: "//www.linkedin.com/in/reneefonseca/"
     - icon: graduation-cap 
       icon_pack: fas
-      link: 'https://scholar.google.com/citations?user=4W6-0qoAAAAJ&hl=en'
+      link: "https://scholar.google.com/citations?user=4W6-0qoAAAAJ&hl=en/"
+    - icon: twitter
+      icon_pack: fab
+      url: "https://twitter.com/renee_fonseca/"
   socialInFooter: yes
   socialInHeader: no
-  textFontFamily: sans-serif
   theme: sky #forest / grayscale / peach / plum /
   #         poppy / sky / violet / water
   twitter: renee_fonseca
