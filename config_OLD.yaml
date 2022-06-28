@@ -35,7 +35,7 @@ params:
   customtextFontFamily: Commissioner
   description: Renée Fonseca's personal website and portfolio
   favicon: /img/favicon.ico
-  headingFontFamily: sans-serif
+
   logo: /img/DNA.png
   mainSections:
     - blog
