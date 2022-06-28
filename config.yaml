@@ -86,10 +86,6 @@ menu:
       title: License
       url: /license/
       weight: 1
-    - name: Contact
-      title: Contact form
-      url: /contact/
-      weight: 2
 
   header:
     - name: About
