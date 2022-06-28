@@ -1,2 +1,2 @@
 # reneefonseca
-academic/personal website
+[academic/personal website](reneefonseca.netlify.app)
