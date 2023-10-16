@@ -1,8 +1,6 @@
 baseURL = "https://reneefonseca.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Renée Fonseca, MS"
-author = "Renée Fonseca"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -33,9 +31,7 @@ enableEmoji = true
     style = "github"
 
 [params]
-  orgName = "Renée Fonseca"
   orgLocal = ""
-  description = "Renée Fonseca's personal website and portfolio"
   favicon = "/img/favicon.ico"
   logo = "/img/DNA.png"
   mainSections = ["blog", "project", "talk", "award"]
@@ -48,7 +44,6 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/avatar.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "renee_fonseca"
 
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -89,19 +84,15 @@ enableEmoji = true
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/renee_fonseca"
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/reneemf"
   [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/reneefonseca/"
   [[params.social]]
       icon      = "graduation-cap" # icon name without the 'fa-'
       icon_pack = "fas"
-      url       = "https://scholar.google.com/citations?user=4W6-0qoAAAAJ&hl=en"
 
 [taxonomies]
   category = "categories"
