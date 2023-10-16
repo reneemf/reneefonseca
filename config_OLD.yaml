@@ -1,8 +1,6 @@
 baseURL: https://reneefonseca.netlify.app
 theme: hugo-apero
 languageCode: en
-title: Renée Fonseca
-author: Renée Fonseca
 copyright: ''
 googleAnalytics: ''
 disqusShortname: ''
@@ -33,7 +31,6 @@ params:
   custom_theme: ''
   customheadingFontFamily: Fraunces
   customtextFontFamily: Commissioner
-  description: Renée Fonseca's personal website and portfolio
   favicon: /img/favicon.ico
 
   logo: /img/DNA.png
@@ -50,25 +47,19 @@ params:
   social:
     - icon: github
       icon_pack: fab
-      url: "https://github.com/reneemf/"
     - icon: linkedin
       icon_pack: fab
-      link: "//www.linkedin.com/in/reneefonseca/"
     - icon: graduation-cap 
       icon_pack: fas
-      link: "https://scholar.google.com/citations?user=4W6-0qoAAAAJ&hl=en/"
     - icon: twitter
       icon_pack: fab
-      url: "https://twitter.com/renee_fonseca/"
   socialInFooter: yes
   socialInHeader: no
   theme: sky #forest / grayscale / peach / plum /
   #         poppy / sky / violet / water
-  twitter: renee_fonseca
   utterances:
     issue_term: pathname
     label: 'comments :crystal_ball:'
-    repo_name: reneemf/reneefonseca
     theme: boxy-light
     use_utterances: yes
 taxonomies:
