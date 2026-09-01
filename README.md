@@ -1,6 +1,6 @@
 # reneefonseca.com
 
-Personal academic site for Renée Fonseca 
+Personal website 
 
 - Everything served lives in [`site/`](site/): `index.html`, `publications.html`,
   `talks.html`, `awards.html`, a shared `style.css`, and assets under
