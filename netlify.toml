@@ -1,17 +1,6 @@
+# Static site — no build step. The homepage and assets live in site/.
+# (Migrated off the Hugo/Apéro setup; the legacy Hugo files in the repo
+#  root are no longer deployed.)
 [build]
-command = 'hugo'
-publish = 'public'
-[build.environment]
-HUGO_VERSION = '0.101.0'
-
-
-[context]
-[context.branch-deploy]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
-[context.deploy-preview]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
-[context.production]
-[context.production.environment]
-HUGO_ENV = 'production'
+  publish = "site"
+  command = ""
