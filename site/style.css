@@ -8,17 +8,17 @@
   --rule:#e3e3ea;
 
   --red:#b02a20;
-  --red-pale:#fbeae7;
-  --red-tint:#fdf6f4;
+  --red-pale:#f2d3cc;
+  --red-tint:#fbede9;
 
   --teal:#166f6b;
-  --teal-pale:#e3f1f0;
-  --teal-tint:#f3f9f9;
+  --teal-pale:#c9e4e1;
+  --teal-tint:#e7f4f2;
 
   --amber:#8f5510;
   --amber-mid:#c9761c;
-  --amber-pale:#fbeedb;
-  --amber-tint:#fdf9f2;
+  --amber-pale:#efd7ae;
+  --amber-tint:#fbf0df;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
@@ -88,7 +88,7 @@ section > h2{font-family:Newsreader,serif;font-weight:400;font-size:1.75rem;lett
 .o .dot{background:var(--amber-pale)} .o .dot svg{stroke:var(--amber-mid)}
 .o h3{color:#623a08} .o p{color:#734a13}
 
-.teaching{background:#f6f5f8;border:1px solid var(--rule);border-radius:14px;padding:1.75rem 1.875rem;margin-bottom:3.25rem}
+.teaching{background:#edecf2;border:1px solid var(--rule);border-radius:14px;padding:1.75rem 1.875rem;margin-bottom:3.25rem}
 .teaching h2{margin-bottom:.625rem}
 .teaching p{margin:0;font-size:.9688rem}
 
